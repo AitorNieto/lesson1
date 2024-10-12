@@ -1,33 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+    <!-- Pongo nombre a la pagina -->
     <head>
         <title>Adidas</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&display=swap" rel="stylesheet">
     </head>
+    <!-- Creo el cuerpo y le pongo fondo -->
     <body style="background-color:rgb(104, 98, 98);">
+        <!-- Creo el encabezado con un estilo -->
         <header style="background-color:rgb(52, 159, 209);">
+            <!-- Centro el encabezado, pongo el titulo con un logo -->
             <center>
                 <h1>Adidas</h1> 
                 <img src="https://i.pinimg.com/736x/66/c3/bb/66c3bb5d77028487ac151ad6aed88138.jpg" alt="nike" width="150">
+                    <!-- Creo unos liks para viajar entre la pagina -->
                     <nav  style="background-color:rgb(96, 192, 133)">
                         <a style="color:rgb(0, 0, 0)"; href="index.html">Pagina principal |</a>
                         <a style="color:rgb(0, 0, 0)"; href="compra.html">Pagina de compra</a>
-
                     </nav>
-    
             </center>
         </header>
             <center>
+                <!-- Determino el estilo de la tabla -->
                 <style>
                     th, td {
                     border-style: outset;
                     }
                     </style>
-                <p>Aqui te mostramos una tabla con las zapatillas mas compradas de Adidas</p>
+                    <p>Aqui te mostramos una tabla con las zapatillas mas compradas de Adidas</p>
                     <h2>Mas vendidas</h2>
+                    <!-- Creo una tabla con 6 filas y 4 columnas y la centro -->
                     <table>
+                        <!-- Creo la cabeza de la tabla -->
                         <thead>
                             <tr>
                                 <th>Modelo</th>
@@ -36,6 +42,7 @@
                                 <th>Foto</th>
                             </tr>
                         </thead>
+                        <!-- Creo el cuerpo de la tabla con sus imagenes -->
                         <tbody>
                             <tr>
                                 <td>Samba</td>
@@ -74,7 +81,12 @@
                                 <td><a> <img src="fotos/spezial.jpg" alt="Spezial" width="150"></a></td>
                             </tr>
                         </tbody>
-                        
+                        <!-- Creo el pie de la tabla -->
+                        <tfoot>
+                            <tr>
+                                <td colspan="4">Total de Zapatillas: 6</td>
+                            </tr>
+                        </tfoot>
                     </table>
             </center>
     </body>
